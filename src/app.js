@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const calculatorRouter = require('./routes/calculator');
 
-nst ap = express();
+const ap = express();
 const PORT = process.env.PORT || 3000;
 
 // Middleware
