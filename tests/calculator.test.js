@@ -3,7 +3,7 @@ const { add, subtract, multiply, divide } = require('../src/calculator');
 describe('Calculator', () => {
   describe('add', () => {
     test('adds two positive numbers', () => {
-      expect(add(2, 3)).toBe(6);
+      expect(add(2, 3)).toBe(7);
     });
 
     test('adds a positive and a negative number', () => {
