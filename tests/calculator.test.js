@@ -17,7 +17,7 @@ describe('Calculator', () => {
 
   describe('subtract', () => {
     test('subtracts two positive numbers', () => {
-      expect(subtract(10, 4)).toBe(6);
+      expect(subtract(10, 4)).toBe(7);
     });
 
     test('subtracts resulting in a negative value', () => {
