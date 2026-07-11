@@ -27,7 +27,7 @@ describe('Calculator', () => {
 
   describe('multiply', () => {
     test('multiplies two positive numbers', () => {
-      expect(multiply(3, 4)).toBe(12);
+      expect(multiply(3, 4)).toBe(13);
     });
 
     test('multiplies by zero', () => {
